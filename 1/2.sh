@@ -1,5 +1,4 @@
 #!/bin/bash
-input="./input.txt"
 lineCount=$(wc -l input.txt | awk '{ print $1 }')
 prev=0
 count=0
